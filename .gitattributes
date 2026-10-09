@@ -1,0 +1,6 @@
+# Keep the repository content identical on every platform: the regression
+# cases and the parser both deal with line endings, so normalise them to LF.
+* text=auto eol=lf
+
+*.exe binary
+*.png binary
