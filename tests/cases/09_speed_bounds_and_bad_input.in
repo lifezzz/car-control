@@ -1,0 +1,23 @@
+status
+start
+start
+auto forward 60
+step
+status
+auto forward 101
+auto backward -1
+auto left abc
+auto
+manual
+manual forward 60 extra
+auto forward 60 70
+fly
+auto forward 100
+status
+auto forward 0
+status
+manual stop 30
+status
+manual release
+manual release
+status

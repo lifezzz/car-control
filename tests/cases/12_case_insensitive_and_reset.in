@@ -1,0 +1,11 @@
+START
+Auto Forward 60
+MANUAL Left 30
+Step
+status
+RESET
+status
+Start
+Step
+status
+quit

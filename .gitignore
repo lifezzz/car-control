@@ -1,0 +1,15 @@
+# build products
+car
+car.exe
+*.o
+*.obj
+*.exe
+*.d
+build/
+
+# editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

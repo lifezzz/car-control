@@ -1,0 +1,10 @@
+start
+auto left 40
+status
+manual right 25
+status
+manual stop
+status
+auto stop
+manual release
+status

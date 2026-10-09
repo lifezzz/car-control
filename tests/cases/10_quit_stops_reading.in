@@ -1,0 +1,6 @@
+start
+auto forward 100
+status
+quit
+status
+auto backward 100

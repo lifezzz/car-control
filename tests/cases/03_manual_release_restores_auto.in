@@ -1,0 +1,8 @@
+start
+auto forward 60
+manual left 30
+auto backward 80
+status
+step
+manual release
+status

@@ -1,0 +1,14 @@
+start
+auto backward 40
+step
+step
+status
+auto forward 40
+step
+status
+step
+status
+step
+status
+step
+status

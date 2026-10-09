@@ -1,0 +1,29 @@
+name: build & test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    name: build (gcc) + regression tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: make
+
+      - name: Regression tests
+        run: make test
+
+      - name: Rebuild with strict warnings treated as errors
+        run: |
+          make clean
+          make CFLAGS="-std=c11 -O2 -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Werror"
+
+      - name: Smoke test the documented example
+        run: ./car < test.txt > /dev/null

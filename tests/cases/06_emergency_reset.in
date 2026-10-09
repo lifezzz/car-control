@@ -1,0 +1,17 @@
+start
+manual right 100
+step
+step
+status
+emergency
+status
+step
+auto left 50
+manual left 50
+status
+reset
+status
+start
+status
+step
+status

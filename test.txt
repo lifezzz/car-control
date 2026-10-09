@@ -1,0 +1,25 @@
+start
+auto forward 60
+step
+step
+status
+manual left 30
+step
+status
+manual release
+status
+step
+status
+emergency
+status
+reset
+status
+start
+auto backward 100
+step
+step
+step
+step
+step
+status
+quit
