@@ -7,6 +7,7 @@
 #include "motion.h"
 
 #include <ctype.h>
+#include <stddef.h> /* NULL */
 
 /*
  * Wheel order of every row: front-left, front-right, rear-left, rear-right.
